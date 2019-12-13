@@ -1,0 +1,10 @@
+{
+	"name": "Arcta",
+	"description": "Arctic themed new tab",
+	"version": "0.1",
+	"manifest_version": 2,
+	"chrome_url_overrides": {
+		"newtab": "arcta.html"
+	},
+	"permissions": [ "storage" ]
+}
