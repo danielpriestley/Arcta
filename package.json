@@ -1,19 +1,21 @@
 {
-  "name": "arcta",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danielpriestley/Arcta.git"
-  },
-  "author": "Daniel Priestley",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danielpriestley/Arcta/issues"
-  },
-  "homepage": "https://github.com/danielpriestley/Arcta#readme"
+	"name": "arcta",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"sasswatch": "sass --watch sass/main.scss:style.css",
+		"devserver": "live-server --browser='Google Chrome'",
+		"start": "npm run sasswatch | npm run devserver"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danielpriestley/Arcta.git"
+	},
+	"author": "Daniel Priestley",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/danielpriestley/Arcta/issues"
+	},
+	"homepage": "https://github.com/danielpriestley/Arcta#readme"
 }
